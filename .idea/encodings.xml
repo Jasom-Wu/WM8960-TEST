@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Code/WM8960.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Code/bsp_key.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Code/bsp_key.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Code/simple_gpio.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DapLink.cfg" charset="GBK" />
+  </component>
+</project>
