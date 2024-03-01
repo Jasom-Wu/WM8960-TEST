@@ -44,6 +44,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960.c" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj.d"
   "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Play.c" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj.d"
+  "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Record.c" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.obj.d"
   "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.c" "CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj.d"
   "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/dma.c" "CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj.d"
   "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/freertos.c" "CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj" "gcc" "CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj.d"

@@ -26,7 +26,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "bsp_key.h"
-#include "WM8960Play.h"
+#include "WM8960Apps.h"
 #include "stdio.h"
 #include "sdio.h"
 #include "WM8960.h"

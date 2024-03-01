@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj.d"
   "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj"
   "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj.d"
+  "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.obj"
+  "CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.obj.d"
   "CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj"
   "CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj.d"
   "CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj"

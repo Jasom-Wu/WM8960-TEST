@@ -176,6 +176,30 @@ Code/WM8960Play.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.s
 .PHONY : Code/WM8960Play.c.s
 
+Code/WM8960Record.obj: Code/WM8960Record.c.obj
+.PHONY : Code/WM8960Record.obj
+
+# target to build an object file
+Code/WM8960Record.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.obj
+.PHONY : Code/WM8960Record.c.obj
+
+Code/WM8960Record.i: Code/WM8960Record.c.i
+.PHONY : Code/WM8960Record.i
+
+# target to preprocess a source file
+Code/WM8960Record.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.i
+.PHONY : Code/WM8960Record.c.i
+
+Code/WM8960Record.s: Code/WM8960Record.c.s
+.PHONY : Code/WM8960Record.s
+
+# target to generate assembly for a file
+Code/WM8960Record.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Record.c.s
+.PHONY : Code/WM8960Record.c.s
+
 Code/bsp_key.obj: Code/bsp_key.c.obj
 .PHONY : Code/bsp_key.obj
 
@@ -1735,6 +1759,9 @@ help:
 	@echo ... Code/WM8960Play.obj
 	@echo ... Code/WM8960Play.i
 	@echo ... Code/WM8960Play.s
+	@echo ... Code/WM8960Record.obj
+	@echo ... Code/WM8960Record.i
+	@echo ... Code/WM8960Record.s
 	@echo ... Code/bsp_key.obj
 	@echo ... Code/bsp_key.i
 	@echo ... Code/bsp_key.s

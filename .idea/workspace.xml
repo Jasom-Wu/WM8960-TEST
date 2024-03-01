@@ -20,7 +20,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52f90647-e7f7-4f30-b9f5-d5b6042051b2" name="变更" comment="" />
+    <list default="true" id="52f90647-e7f7-4f30-b9f5-d5b6042051b2" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/WM8960Play.c" beforeDir="false" afterPath="$PROJECT_DIR$/Code/WM8960Apps.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/WM8960Play.h" beforeDir="false" afterPath="$PROJECT_DIR$/Code/WM8960Apps.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/codemodel-v2-a7388371555887c264b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/index-2024-02-28T12-46-39-0149.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/target-WM8960-TEST.elf-Debug-ae28023d3d06759d7179.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.cbp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,9 +52,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW(STM32)" />
-  <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://92" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -46,19 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code",
-    "settings.editor.selected.configurable": "CPPToolchains",
-    "structure.view.defaults.are.configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CPPToolchains&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code" />
@@ -66,12 +86,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.Built&amp;Download">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="WM8960-TEST.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WM8960-TEST" TARGET_NAME="WM8960-TEST.elf" CONFIG_NAME="Debug-MinGW(STM32)" RUN_TARGET_PROJECT_NAME="WM8960-TEST" RUN_TARGET_NAME="WM8960-TEST.elf">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WM8960-TEST.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WM8960-TEST" TARGET_NAME="WM8960-TEST.elf" CONFIG_NAME="Debug-MinGW(STM32)" RUN_TARGET_PROJECT_NAME="WM8960-TEST" RUN_TARGET_NAME="WM8960-TEST.elf">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -104,7 +124,8 @@
       <updated>1708751083612</updated>
       <workItem from="1708751119855" duration="5792000" />
       <workItem from="1708761128253" duration="41712000" />
-      <workItem from="1709027867655" duration="40520000" />
+      <workItem from="1709027867655" duration="42786000" />
+      <workItem from="1709303393459" duration="6969000" />
     </task>
     <servers />
   </component>

@@ -2,12 +2,12 @@
 // Created by Mr.WU on 2024/2/24.
 //
 
-#ifndef WM8960_TEST_WM8960PLAY_H
-#define WM8960_TEST_WM8960PLAY_H
+#ifndef WM8960_TEST_WM8960APPS_H
+#define WM8960_TEST_WM8960APPS_H
 #include "stm32f1xx_hal.h"
 #include "fatfs.h"
 
-#define WAV_BUFFER_SIZE 20480
+#define WAV_BUFFER_SIZE 10240
 #define PLAY_SIZE 15000
 
 //RIFF Chunk
@@ -74,20 +74,29 @@ enum {
     AUDIO_NONE=0,
     AUDIO_PRE_PLAY,
     AUDIO_PLAY,
+    AUDIO_RECORD,
     AUDIO_PAUSE,
     AUDIO_RESUME,
     AUDIO_CANCEL,
-    AUDIO_END
-};
+    AUDIO_END,
+
+}AUDIO_FLAG;
+
+//WAV Header
+typedef __packed struct
+{
+    ChunkRIFF riff;     //RIFF Chunk
+    ChunkFMT fmt;       //fmt Chunk
+    //ChunkFACT fact;   //fact Chunk; This is not in Line PCM file
+    ChunkDATA data;     //data Chunk
+}__WaveHeader;
 
 
 extern volatile uint8_t audio_play_request;
 extern volatile uint8_t audio_play_state;
+extern volatile uint8_t audio_rec_request;
+extern volatile uint8_t audio_rec_state;
 extern FIL WAV_File;
-extern uint8_t WAV_Buffer[WAV_BUFFER_SIZE];
-extern uint32_t WAV_LastData;
-
-
 extern I2S_CallBack_Flag I2S_Flag;
 extern char Play_List[10][40];
 extern uint8_t Music_Num_MAX;
@@ -95,7 +104,8 @@ extern uint8_t Music_Num;
 
 FRESULT ScanWavefiles(char* path);
 uint8_t PlayWaveFile(char *pname);
+uint8_t RecordWaveFile(char *fname,uint32_t fs);
 uint8_t Get_WAV_Message(char* fname,wavctrl* wavx);
 uint32_t Fill_WAV_Buffer(uint8_t *BUFF, uint16_t size);
 void Volum_Control(uint8_t ctrl);
-#endif //WM8960_TEST_WM8960PLAY_H
+#endif //WM8960_TEST_WM8960APPS_H

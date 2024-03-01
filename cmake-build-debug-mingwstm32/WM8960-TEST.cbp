@@ -132,6 +132,12 @@
 		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Play.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Record.c">
+			<Option target="WM8960-TEST.elf"/>
+		</Unit>
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Record.h">
+			<Option target="WM8960-TEST.elf"/>
+		</Unit>
 		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
