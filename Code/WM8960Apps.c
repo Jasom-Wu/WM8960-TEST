@@ -369,6 +369,7 @@ uint8_t PlayWaveFile(char *pname){
   res = WM89060_Init(WM8960_MODE_DAC_ENABLE);
   res += Get_WAV_Message(pname,&WaveCtrlData);    //Get the messages of the WAV file
   if(res != 0){
+    f_close(&WAV_File);
     audio_play_request = AUDIO_NONE;
     return res;
   }
@@ -413,8 +414,6 @@ uint8_t PlayWaveFile(char *pname){
 }
 
 
-
-
 /**
   * @brief  Initialize WAV file
   * @param  fname: name of file(exclude suffix)
@@ -448,7 +447,6 @@ uint8_t WAV_File_Init(char *fname,uint32_t fs) {
       if(Res==FR_EXIST)
         continue;
       else if(Res==FR_OK)  {
-        //CloseFileFlag=1;
         Res=f_write(&WAV_File,(const void*)(&WAV_Header),sizeof(__WaveHeader),&WriteSize);//write file head
         printf("File_Header f_write : %d\r\n", Res);
         break;
@@ -487,6 +485,7 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
   res = WM89060_Init(WM8960_MODE_ADC_ENABLE);
   res += WAV_File_Init(fname,fs);
   if(res != 0){
+    f_close(&WAV_File);
     audio_rec_request = AUDIO_NONE;
     return res;
   }
@@ -508,7 +507,6 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
       else if(I2S_Flag == I2S_Callback) {
         res = f_write(&WAV_File,(WAV_Buffer+(WAV_BUFFER_SIZE/2)),WAV_BUFFER_SIZE/2,&WriteSize);
         RecDataSize += WriteSize;
-        printf("f_write: %d, WriteSize: %d\r\n", res, WriteSize);
         I2S_Flag = I2S_No_CallBack;
       }
     }
@@ -569,6 +567,7 @@ void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s)
     }
 }
 void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef *hi2s){
+  I2S_Flag = I2S_Callback;
   if(audio_rec_state == AUDIO_RECORD)
     HAL_I2S_Receive_DMA(hi2s,(uint16_t *)WAV_Buffer, WAV_BUFFER_SIZE/2);
 }

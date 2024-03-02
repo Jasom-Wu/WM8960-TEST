@@ -142,11 +142,7 @@ void StartDefaultTask(void const * argument)
   static portTickType PreviousWakeTime;
   const portTickType TimeIncrement = pdMS_TO_TICKS(50);
   PreviousWakeTime = xTaskGetTickCount();
-
-
-
-  if(ScanWavefiles("0:/WAV")==FR_OK)
-    vTaskResume(mainTaskHandle);
+  vTaskResume(mainTaskHandle);
 
   /* Infinite loop */
   for(;;)
@@ -170,11 +166,12 @@ void StartMainTask(void const * argument)
   static portTickType PreviousWakeTime;
   const portTickType TimeIncrement = pdMS_TO_TICKS(50);
   PreviousWakeTime = xTaskGetTickCount();
+  ScanWavefiles("0:/REC");
   /* Infinite loop */
   for(;;)
   {
     PlayWaveFile(Play_List[Music_Num]);
-    RecordWaveFile(NULL,16000);
+    RecordWaveFile("test_rec",16000);
     vTaskDelayUntil(&PreviousWakeTime, TimeIncrement);
   }
   /* USER CODE END StartMainTask */
@@ -186,6 +183,7 @@ void KeyProcessHandler(Key_Typedef keys){
   if(keys.k1 == CLICKED){
     if(audio_rec_state == AUDIO_RECORD || audio_rec_state == AUDIO_PAUSE){
       audio_rec_request = AUDIO_END;
+      ScanWavefiles("0:/REC");
       return;
     }
     if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE || audio_play_state == AUDIO_END || audio_play_state == AUDIO_NONE){

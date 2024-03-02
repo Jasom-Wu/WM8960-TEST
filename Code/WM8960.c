@@ -138,8 +138,8 @@ uint8_t WM89060_Init(uint8_t mode)  {
 /*********ADC*********/
 
     //ADC Digital Volume Control
-    WM8960_Write_Reg(0x15, 0x00C3 | 0x0100);//LEFT +30dB - 0.5dB*60 = 0dB
-    WM8960_Write_Reg(0x16, 0x00C3 | 0x0100);//RIGHT +30dB - 0.5dB*60 = 0dB
+    WM8960_Write_Reg(0x15, 0x00E1 | 0x0100);//LEFT +30dB - 0.5dB*30 = +15dB
+    WM8960_Write_Reg(0x16, 0x00E1 | 0x0100);//RIGHT +30dB - 0.5dB*30 = +15dB
 
 #ifdef USE_BOARD_MIC
     WM8960_Write_Reg(0x17, 1<<2);//ADC两个声道采用leftADCdata
@@ -149,7 +149,7 @@ uint8_t WM89060_Init(uint8_t mode)  {
 
 /*********ALC Control*********/
     //Noise Gate Control
-    WM8960_Write_Reg(0x14, 0x00C9);//Ignore signal under -30dBfs
+    WM8960_Write_Reg(0x14, 0x00F9);//Ignore signal under -30dBfs
   }
   //Jack Detect
   WM8960_Write_Reg(0x18, 1<<6 | 0<<5);//HPSWEN=1；HPSWPOL=0 高电平为耳机
