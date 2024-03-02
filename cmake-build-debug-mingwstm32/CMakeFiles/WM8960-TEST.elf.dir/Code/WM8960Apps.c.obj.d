@@ -1,6 +1,6 @@
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj: \
- E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Play.c \
- E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Play.h \
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj: \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Inc/stm32f1xx_hal_conf.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Inc/stm32f1xx_hal_rcc.h \
@@ -70,4 +70,5 @@ CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Play.c.obj: \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Inc/main.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\stdio.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\lib\gcc\arm-none-eabi\12.2.1\include\stdarg.h \
- e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\sys\stdio.h
+ e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\sys\stdio.h \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\simple_gpio.h

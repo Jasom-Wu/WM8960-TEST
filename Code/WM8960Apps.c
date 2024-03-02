@@ -7,7 +7,7 @@
 #include "WM8960.h"
 #include "i2s.h"
 #include "stdio.h"
-
+#include "simple_gpio.h"
 
 
 
@@ -351,6 +351,14 @@ void IIS_ModeModify(uint32_t mode){
   {
     Error_Handler();
   }
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  GPIO_InitStruct.Pin = GPIO_PIN_15;
+  GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
+  if(mode == I2S_MODE_MASTER_RX){
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  }
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 }
 uint8_t PlayWaveFile(char *pname){
   uint8_t res;
@@ -358,43 +366,47 @@ uint8_t PlayWaveFile(char *pname){
     audio_play_request = AUDIO_NONE;
     return 0xff;
   }
+  res = WM89060_Init(WM8960_MODE_DAC_ENABLE);
+  res += Get_WAV_Message(pname,&WaveCtrlData);    //Get the messages of the WAV file
+  if(res != 0){
+    audio_play_request = AUDIO_NONE;
+    return res;
+  }
+
   audio_play_state = AUDIO_PLAY;
   I2S_Flag = I2S_No_CallBack;
   printf("Now Play: %s\r\n",pname);
-  res = Get_WAV_Message(pname,&WaveCtrlData);    //Get the messages of the WAV file
-  if(res==0){
-    WAV_LastData = WaveCtrlData.datasize;
-    IIS_ModeModify(I2S_MODE_MASTER_TX);
-    IIS_FreqModify(WaveCtrlData.samplerate);
-    f_lseek(&WAV_File, WaveCtrlData.datastart);
-    Fill_WAV_Buffer(WAV_Buffer, WAV_BUFFER_SIZE);
-    HAL_I2S_Transmit_DMA(&hi2s2,(uint16_t*)WAV_Buffer, WAV_BUFFER_SIZE/2);
-    while(audio_play_state != AUDIO_CANCEL && audio_play_state != AUDIO_END){
-      if(audio_play_state == AUDIO_PLAY){
-        if(I2S_Flag == I2S_Half_Callback) {
-          Fill_WAV_Buffer(WAV_Buffer,WAV_BUFFER_SIZE/2);
-          I2S_Flag = I2S_No_CallBack;
-        }
-        else if(I2S_Flag == I2S_Callback) {
-          Fill_WAV_Buffer((WAV_Buffer+WAV_BUFFER_SIZE/2),WAV_BUFFER_SIZE/2);
-          I2S_Flag = I2S_No_CallBack;
-        }
+  WAV_LastData = WaveCtrlData.datasize;
+  IIS_ModeModify(I2S_MODE_MASTER_TX);
+  IIS_FreqModify(WaveCtrlData.samplerate);
+  f_lseek(&WAV_File, WaveCtrlData.datastart);
+  Fill_WAV_Buffer(WAV_Buffer, WAV_BUFFER_SIZE);
+  HAL_I2S_Transmit_DMA(&hi2s2,(uint16_t*)WAV_Buffer, WAV_BUFFER_SIZE/2);
+  while(audio_play_state != AUDIO_CANCEL && audio_play_state != AUDIO_END){
+    if(audio_play_state == AUDIO_PLAY){
+      if(I2S_Flag == I2S_Half_Callback) {
+        Fill_WAV_Buffer(WAV_Buffer,WAV_BUFFER_SIZE/2);
+        I2S_Flag = I2S_No_CallBack;
       }
-      if(audio_play_state == AUDIO_PLAY && audio_play_request == AUDIO_PAUSE){
-        HAL_I2S_DMAPause(&hi2s2); //Pause DMA data flow
-        audio_play_state = AUDIO_PAUSE;
-      }
-      if(audio_play_state == AUDIO_PAUSE && audio_play_request == AUDIO_RESUME){
-        HAL_I2S_DMAResume(&hi2s2);
-        audio_play_state = AUDIO_PLAY;
-      }
-      if(audio_play_request == AUDIO_CANCEL){
-        audio_play_state = AUDIO_CANCEL;
+      else if(I2S_Flag == I2S_Callback) {
+        Fill_WAV_Buffer((WAV_Buffer+WAV_BUFFER_SIZE/2),WAV_BUFFER_SIZE/2);
+        I2S_Flag = I2S_No_CallBack;
       }
     }
-    HAL_I2S_Transmit_DMA(&hi2s2,(uint16_t*)WAV_Buffer, WAV_BUFFER_SIZE/2);
-    f_close(&WAV_File);
+    if(audio_play_state == AUDIO_PLAY && audio_play_request == AUDIO_PAUSE){
+      HAL_I2S_DMAPause(&hi2s2); //Pause DMA data flow
+      audio_play_state = AUDIO_PAUSE;
+    }
+    if(audio_play_state == AUDIO_PAUSE && audio_play_request == AUDIO_RESUME){
+      HAL_I2S_DMAResume(&hi2s2);
+      audio_play_state = AUDIO_PLAY;
+    }
+    if(audio_play_request == AUDIO_CANCEL){
+      audio_play_state = AUDIO_CANCEL;
+    }
   }
+  HAL_I2S_Transmit_DMA(&hi2s2,(uint16_t*)WAV_Buffer, WAV_BUFFER_SIZE/2);
+  f_close(&WAV_File);
   HAL_I2S_DMAStop(&hi2s2);
   audio_play_request = AUDIO_NONE;
   return res;
@@ -417,19 +429,19 @@ uint8_t WAV_File_Init(char *fname,uint32_t fs) {
   WAV_Header.riff.ChunkSize=0;                          //Not yet determined, final calculation required
   WAV_Header.riff.Format=0X45564157;                    //"WAVE"
   WAV_Header.fmt.ChunkID=0X20746D66;                    //"fmt "
-  WAV_Header.fmt.ChunkSize=16;                          //16 bytes
+  WAV_Header.fmt.ChunkSize=16;                          //18 bytes
   WAV_Header.fmt.AudioFormat=0X01;                      //0X01, lineal PCM;0X03, IMA ADPCM
   WAV_Header.fmt.NumOfChannels=2;                       //dual channel
-  WAV_Header.fmt.SampleRate=fs;                      //16Khz sampling rate
+  WAV_Header.fmt.SampleRate=fs;                         //Custom sampling rate
   WAV_Header.fmt.ByteRate=WAV_Header.fmt.SampleRate*4;  //Byte rate = sampling rate * number of channels * (ADC bit number/8)
   WAV_Header.fmt.BlockAlign=4;                          //Chunk size = channel number *(ADC /8)
   WAV_Header.fmt.BitsPerSample=16;                      //16-bit PCM
-  WAV_Header.data.ChunkID=0X61746164;                   //"data"
+  WAV_Header.data.ChunkID=0X61746164;                    //"data"
   WAV_Header.data.ChunkSize=0;                          //Data size, final calculation required
 
   if(fname==NULL){
     for(i=0;i<100;i++)  {
-      sprintf(TempBuf,"0:/MEDIA/REC/%d.wav",i);
+      sprintf(TempBuf,"0:/REC/%d.wav",i);
       printf("%s\r\n",TempBuf);
       Res=f_open(&WAV_File,TempBuf,FA_CREATE_NEW | FA_WRITE);
 
@@ -448,7 +460,7 @@ uint8_t WAV_File_Init(char *fname,uint32_t fs) {
     }
   }
   else{
-    sprintf(TempBuf,"0:/MEDIA/REC/%s.wav",fname);
+    sprintf(TempBuf,"0:/REC/%s.wav",fname);
     Res=f_open(&WAV_File,TempBuf,FA_CREATE_NEW | FA_WRITE);
     if(Res==FR_OK)  {
       //CloseFileFlag=1;
@@ -472,18 +484,22 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
     audio_rec_request = AUDIO_NONE;
     return 0xee;
   }
-  res = WAV_File_Init(fname,fs);
-  if(res != 0)
+  res = WM89060_Init(WM8960_MODE_ADC_ENABLE);
+  res += WAV_File_Init(fname,fs);
+  if(res != 0){
+    audio_rec_request = AUDIO_NONE;
     return res;
+  }
 
   IIS_ModeModify(I2S_MODE_MASTER_RX);
   IIS_FreqModify(fs);
 
   audio_rec_state = AUDIO_RECORD;
   HAL_I2S_Receive_DMA(&hi2s2,(uint16_t *) WAV_Buffer, WAV_BUFFER_SIZE/2);
-
+  PBout(5) = 1;
+  PBout(0) = 0;
   while(audio_rec_state != AUDIO_CANCEL && audio_rec_state != AUDIO_END){
-    if(audio_rec_state == AUDIO_PLAY){
+    if(audio_rec_state == AUDIO_RECORD){
       if(I2S_Flag == I2S_Half_Callback) {
         res = f_write(&WAV_File,WAV_Buffer,WAV_BUFFER_SIZE/2,&WriteSize);
         RecDataSize += WriteSize;
@@ -496,13 +512,17 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
         I2S_Flag = I2S_No_CallBack;
       }
     }
-    if(audio_rec_state == AUDIO_PLAY && audio_rec_request == AUDIO_PAUSE){
+    if(audio_rec_state == AUDIO_RECORD && audio_rec_request == AUDIO_PAUSE){
       HAL_I2S_DMAPause(&hi2s2); //Pause DMA data flow
       audio_rec_state = AUDIO_PAUSE;
+      PBout(5) = 0;
+      PBout(0) = 1;
     }
     if(audio_rec_state == AUDIO_PAUSE && audio_rec_request == AUDIO_RESUME){
       HAL_I2S_DMAResume(&hi2s2);
-      audio_rec_state = AUDIO_PLAY;
+      audio_rec_state = AUDIO_RECORD;
+      PBout(5) = 1;
+      PBout(0) = 0;
     }
     if(audio_rec_request == AUDIO_CANCEL){
       f_unlink(TempBuf);
@@ -514,15 +534,16 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
   }
   HAL_I2S_DMAStop(&hi2s2);
   audio_rec_request = AUDIO_NONE;
-
+  PBout(5) = 1;
+  PBout(0) = 1;
   WAV_Header.riff.ChunkSize = RecDataSize+36;   //File size - 8;
   WAV_Header.data.ChunkSize = RecDataSize;      //Data size
   printf("RecDataSize=%d\r\n",RecDataSize);
 
   f_sync(&WAV_File);
-  f_lseek(&WAV_File,0);										  //offset to file head.
-  f_write(&WAV_File,(const void*)(&WAV_Header),sizeof(__WaveHeader),&WriteSize);  //write file head
-  f_close(&WAV_File);
+  res += f_lseek(&WAV_File,0);										  //offset to file head.
+  res += f_write(&WAV_File,(const void*)(&WAV_Header),sizeof(__WaveHeader),&WriteSize);  //write file head
+  res += f_close(&WAV_File);
   return res;
 }
 
@@ -530,13 +551,14 @@ uint8_t RecordWaveFile(char *fname,uint32_t fs){
 void HAL_I2S_TxHalfCpltCallback(I2S_HandleTypeDef *hi2s)  {
   I2S_Flag = I2S_Half_Callback;
 }
-
+void HAL_I2S_RxHalfCpltCallback(I2S_HandleTypeDef *hi2s){
+  I2S_Flag = I2S_Half_Callback;
+}
 void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s)
 {
   /* Manage the remaining file size and new address offset: */
 
   /* Check if the end of file has been reached */
-  if(hi2s->Init.Mode == I2S_MODE_MASTER_TX){
     WAV_LastData -= WAV_BUFFER_SIZE;
     if(WAV_LastData >= WAV_BUFFER_SIZE)  {
       I2S_Flag = I2S_Callback;
@@ -545,9 +567,8 @@ void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s)
     else  {
       audio_play_state = AUDIO_END;
     }
-  } else if(hi2s->Init.Mode == I2S_MODE_MASTER_RX){
-    if(audio_rec_state == AUDIO_RECORD)
-      HAL_I2S_Receive_DMA(hi2s,(uint16_t *)WAV_Buffer, WAV_BUFFER_SIZE/2);
-  }
-
+}
+void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef *hi2s){
+  if(audio_rec_state == AUDIO_RECORD)
+    HAL_I2S_Receive_DMA(hi2s,(uint16_t *)WAV_Buffer, WAV_BUFFER_SIZE/2);
 }

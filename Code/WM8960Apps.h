@@ -11,37 +11,37 @@
 #define PLAY_SIZE 15000
 
 //RIFF Chunk
-typedef __packed struct
+typedef struct
 {
     uint32_t ChunkID;       //CHUNK ID is "RIFF" = 0X46464952
     uint32_t ChunkSize ;    //ChunkSize = file_size - 8
     uint32_t Format;        //Format: "WAVE" = 0X45564157
-}ChunkRIFF;
+}__packed ChunkRIFF;
 
 //fmt Chunk
-typedef __packed struct
+typedef struct
 {
     uint32_t ChunkID;       //Chunk ID is "fmt" = 0X20746D66
-    uint32_t ChunkSize ;    //ChunkSize(Not including ID and Size): 20.
+    uint32_t ChunkSize ;    //ChunkSize(Not including ID and Size): 18.
     uint16_t AudioFormat;   //Audio Format = 0X01,Linear PCM;0X11 is IMA ADPCM
     uint16_t NumOfChannels; //channel number; 1,mono channel; 2,double channel;
     uint32_t SampleRate;    //SampleRate;0X1F40,8Khz
     uint32_t ByteRate;      //ByteRate;
     uint16_t BlockAlign;    //Chunk align (byte);
     uint16_t BitsPerSample; //Single sample data size; 4 bits is ADPCM,set as 4
-    uint16_t ByteExtraData; //extra data ; 2 ;linear PCM file don't have this.
-}ChunkFMT;
+//    uint16_t ByteExtraData; //extra data ; 2 ;linear PCM file don't have this.
+}__packed ChunkFMT;
 
 //fact Chunk
-typedef __packed struct
+typedef struct
 {
     uint32_t ChunkID;       //Chunk ID: "fact",0X74636166;Linear PCM don't have this.
     uint32_t ChunkSize ;    //Chunk Size(Not includeing ID and Size);This is 4.
     uint32_t FactSize;      //Transform to PCM File's size;
-}ChunkFACT;
+}__packed ChunkFACT;
 
 //WAV File play control struct
-typedef __packed struct
+typedef struct
 {
     uint16_t audioformat;   //audio format;0X01 is Linear PCM;0X11 is IMA ADPCM.
     uint16_t nchannels;     //track number; 1,single track; 2,dual track;
@@ -53,14 +53,14 @@ typedef __packed struct
     uint32_t samplerate;    //sampling rate
     uint16_t bps;           //bit numbers,such as 16bit,24bit,32bit
     uint32_t datastart;     //Starting position of Data frame(Offset in the file)
-}wavctrl;
+}__packed wavctrl;
 
 //Data Chunk
-typedef __packed struct
+typedef struct
 {
     uint32_t ChunkID;       //chunk ID: "data" = 0X5453494C
     uint32_t ChunkSize ;    //Chunk Size(Not includeing ID and Size)
-}ChunkDATA;
+}__packed ChunkDATA;
 
 //I2S CallBack function Flag
 typedef enum
@@ -79,17 +79,16 @@ enum {
     AUDIO_RESUME,
     AUDIO_CANCEL,
     AUDIO_END,
-
-}AUDIO_FLAG;
+};
 
 //WAV Header
-typedef __packed struct
+typedef struct
 {
     ChunkRIFF riff;     //RIFF Chunk
     ChunkFMT fmt;       //fmt Chunk
     //ChunkFACT fact;   //fact Chunk; This is not in Line PCM file
     ChunkDATA data;     //data Chunk
-}__WaveHeader;
+}__packed __WaveHeader;
 
 
 extern volatile uint8_t audio_play_request;

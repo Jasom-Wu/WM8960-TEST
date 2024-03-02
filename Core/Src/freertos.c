@@ -144,7 +144,7 @@ void StartDefaultTask(void const * argument)
   PreviousWakeTime = xTaskGetTickCount();
 
 
-  WM89060_Init(WM8960_MODE_DAC_ENABLE);
+
   if(ScanWavefiles("0:/WAV")==FR_OK)
     vTaskResume(mainTaskHandle);
 
@@ -174,6 +174,7 @@ void StartMainTask(void const * argument)
   for(;;)
   {
     PlayWaveFile(Play_List[Music_Num]);
+    RecordWaveFile(NULL,16000);
     vTaskDelayUntil(&PreviousWakeTime, TimeIncrement);
   }
   /* USER CODE END StartMainTask */
@@ -183,6 +184,10 @@ void StartMainTask(void const * argument)
 /* USER CODE BEGIN Application */
 void KeyProcessHandler(Key_Typedef keys){
   if(keys.k1 == CLICKED){
+    if(audio_rec_state == AUDIO_RECORD || audio_rec_state == AUDIO_PAUSE){
+      audio_rec_request = AUDIO_END;
+      return;
+    }
     if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE || audio_play_state == AUDIO_END || audio_play_state == AUDIO_NONE){
       printf("Previous!\r\n");
       if(Music_Num==0)
@@ -195,8 +200,18 @@ void KeyProcessHandler(Key_Typedef keys){
       }
       audio_play_request = AUDIO_PLAY;
     }
+  }else if (keys.k1 == LONG_PRESSED){
+    if(audio_rec_state == AUDIO_RECORD)
+      audio_rec_request = AUDIO_PAUSE;
+    else if(audio_rec_state == AUDIO_NONE || audio_rec_state == AUDIO_END || audio_rec_state == AUDIO_CANCEL)
+      audio_rec_request = AUDIO_RECORD;
+    else if(audio_rec_state == AUDIO_PAUSE)
+      audio_rec_request = AUDIO_RESUME;
   }
   if(keys.k2 == CLICKED){
+    if(audio_rec_state == AUDIO_RECORD || audio_rec_state == AUDIO_PAUSE || audio_rec_state == AUDIO_END){
+      audio_rec_request = AUDIO_CANCEL;
+    }
     if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE || audio_play_state == AUDIO_END || audio_play_state == AUDIO_NONE) {
       printf("Next!\r\n");
       if (Music_Num == Music_Num_MAX-1)

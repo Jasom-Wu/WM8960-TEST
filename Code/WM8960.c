@@ -84,15 +84,14 @@ uint8_t WM89060_Init(uint8_t mode)  {
   
   //Configure clock
   WM8960_Write_Reg(0x04, 0x0000);//divided by 256
-  
+
+  //Configure audio interface
+  //I2S format 16 bits word length
+  WM8960_Write_Reg(0x07, 0x0002);//FORMAT=10——>I2S Format;WL=00——>16位;MS=0——>slave
 
   if(mode & WM8960_MODE_DAC_ENABLE) {
     //Configure ADC/DAC
     WM8960_Write_Reg(0x05, WM8960_REG_VAL[0x05] & (~(1<<3)));// Set DAC not Muted
-
-    //Configure audio interface
-    //I2S format 16 bits word length
-    WM8960_Write_Reg(0x07, 0x0002);//FORMAT=10——>I2S Format;WL=00——>16位;MS=0——>slave
 
     //Configure HP_L and HP_R OUTPUTS
     WM8960_Write_Reg(0x02, 1<<7 | 0x006F | 0x0100);  //LOUT1 Volume Set +6dB-16dB=-10dB Zero Cross Enable
@@ -129,7 +128,7 @@ uint8_t WM89060_Init(uint8_t mode)  {
     WM8960_Write_Reg(0x21, 0x0000);
 #elif USE_EARPHONE_MIC
     WM8960_Write_Reg(0x20, 0x0000);
-  WM8960_Write_Reg(0x21, 0x0008 | 0x0100);
+    WM8960_Write_Reg(0x21, 0x0008 | 0x0100);
 #endif
 
     //Input Boost Mixer
@@ -150,7 +149,7 @@ uint8_t WM89060_Init(uint8_t mode)  {
 
 /*********ALC Control*********/
     //Noise Gate Control
-    WM8960_Write_Reg(0x14, 0x00F9);//Ignore signal under -30dBfs
+    WM8960_Write_Reg(0x14, 0x00C9);//Ignore signal under -30dBfs
   }
   //Jack Detect
   WM8960_Write_Reg(0x18, 1<<6 | 0<<5);//HPSWEN=1；HPSWPOL=0 高电平为耳机

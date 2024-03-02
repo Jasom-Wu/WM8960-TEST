@@ -21,7 +21,7 @@
 #include "i2s.h"
 
 /* USER CODE BEGIN 0 */
-
+DMA_HandleTypeDef hdma_spi2_rx;
 /* USER CODE END 0 */
 
 I2S_HandleTypeDef hi2s2;
@@ -43,7 +43,7 @@ void MX_I2S2_Init(void)
   hi2s2.Init.Standard = I2S_STANDARD_PHILIPS;
   hi2s2.Init.DataFormat = I2S_DATAFORMAT_16B;
   hi2s2.Init.MCLKOutput = I2S_MCLKOUTPUT_ENABLE;
-  hi2s2.Init.AudioFreq = I2S_AUDIOFREQ_48K;
+  hi2s2.Init.AudioFreq = I2S_AUDIOFREQ_16K;
   hi2s2.Init.CPOL = I2S_CPOL_LOW;
   if (HAL_I2S_Init(&hi2s2) != HAL_OK)
   {
@@ -77,12 +77,12 @@ void HAL_I2S_MspInit(I2S_HandleTypeDef* i2sHandle)
     */
     GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_15;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
     GPIO_InitStruct.Pin = GPIO_PIN_6;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
     /* I2S2 DMA Init */
@@ -104,6 +104,25 @@ void HAL_I2S_MspInit(I2S_HandleTypeDef* i2sHandle)
 
   /* USER CODE BEGIN SPI2_MspInit 1 */
 
+//    GPIO_InitStruct.Pin = GPIO_PIN_15;
+//    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+//    GPIO_InitStruct.Pull = GPIO_NOPULL;
+//    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  /* SPI2_RX Init */
+    hdma_spi2_rx.Instance = DMA1_Channel4;
+    hdma_spi2_rx.Init.Direction = DMA_PERIPH_TO_MEMORY;
+    hdma_spi2_rx.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_spi2_rx.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_spi2_rx.Init.PeriphDataAlignment = DMA_PDATAALIGN_HALFWORD;
+    hdma_spi2_rx.Init.MemDataAlignment = DMA_MDATAALIGN_HALFWORD;
+    hdma_spi2_rx.Init.Mode = DMA_NORMAL;
+    hdma_spi2_rx.Init.Priority = DMA_PRIORITY_LOW;
+    if (HAL_DMA_Init(&hdma_spi2_rx) != HAL_OK)
+    {
+      Error_Handler();
+    }
+
+    __HAL_LINKDMA(i2sHandle,hdmarx,hdma_spi2_rx);
   /* USER CODE END SPI2_MspInit 1 */
   }
 }
@@ -133,6 +152,7 @@ void HAL_I2S_MspDeInit(I2S_HandleTypeDef* i2sHandle)
     HAL_DMA_DeInit(i2sHandle->hdmatx);
   /* USER CODE BEGIN SPI2_MspDeInit 1 */
 
+    HAL_DMA_DeInit(i2sHandle->hdmarx);
   /* USER CODE END SPI2_MspDeInit 1 */
   }
 }

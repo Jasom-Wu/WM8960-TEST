@@ -59,7 +59,7 @@ CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj: \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\include/event_groups.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\include/timers.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code/bsp_key.h \
- E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code/WM8960Play.h \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code/WM8960Apps.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App/fatfs.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src/ff.h \
  E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src/integer.h \

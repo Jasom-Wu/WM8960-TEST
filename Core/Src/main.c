@@ -106,6 +106,8 @@ int main(void)
   MX_I2S2_Init();
   MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
+  HAL_NVIC_SetPriority(DMA1_Channel4_IRQn, 5, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel4_IRQn);
   printf("%d\n",f_mount(&SDFatFS,SDPath,0));
   HAL_Delay(1000);
   /* USER CODE END 2 */

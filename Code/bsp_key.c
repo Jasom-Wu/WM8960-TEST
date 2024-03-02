@@ -16,16 +16,25 @@ __weak void KeyProcessHandler(const Key_Typedef keys) {
 }
 
 void KeyHandlerCore(void) {
-  //KEY1 = KEY2 = 1;//先把输入端口拉高，检测低电平
-  switch (mykeys.k1) {//用switch语句构成按键的状态机
+  KEY1 = KEY2 = 0;//先把输入端口拉低，检测高电平
+  switch (mykeys.k1) {
     case NONE: {
-      if (KEY1 == 1)//若采集到高电平说明按键按下
-        mykeys.k1 = PRESSING;//按键按下
+      if (KEY1 == 1) {
+        mykeys.k1 = PRESSING;
+        mykeys.k1_last_tick = HAL_GetTick();//当确认键按下，需要记录此时的时刻
+      }
       break;
     }
     case PRESSING: {
-      if (KEY1 == 0)//在pressing状态下检测到输入电平为低表明按键完成了一次短按
-        mykeys.k1 = CLICKED;
+      if (KEY1 == 0) {//按键松开！
+        //getTick()获取系统心跳的时刻，若超前于刚被按下时刻800ms
+        if (HAL_GetTick() - mykeys.k1_last_tick > 800){
+          mykeys.k1 = LONG_PRESSED;//触发长按
+        }
+        else{
+          mykeys.k1 = CLICKED;//若按下时间小于800ms则触发短按
+        }
+      }
       break;
     }
   }
