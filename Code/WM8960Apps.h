@@ -22,7 +22,7 @@ typedef struct
 typedef struct
 {
     uint32_t ChunkID;       //Chunk ID is "fmt" = 0X20746D66
-    uint32_t ChunkSize ;    //ChunkSize(Not including ID and Size): 18.
+    uint32_t ChunkSize ;    //ChunkSize(Not including ID and Size): 16.
     uint16_t AudioFormat;   //Audio Format = 0X01,Linear PCM;0X11 is IMA ADPCM
     uint16_t NumOfChannels; //channel number; 1,mono channel; 2,double channel;
     uint32_t SampleRate;    //SampleRate;0X1F40,8Khz
@@ -96,7 +96,7 @@ extern volatile uint8_t audio_play_state;
 extern volatile uint8_t audio_rec_request;
 extern volatile uint8_t audio_rec_state;
 extern FIL WAV_File;
-extern I2S_CallBack_Flag I2S_Flag;
+extern volatile I2S_CallBack_Flag I2S_Flag;
 extern char Play_List[10][40];
 extern uint8_t Music_Num_MAX;
 extern uint8_t Music_Num;

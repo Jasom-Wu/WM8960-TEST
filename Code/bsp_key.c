@@ -16,7 +16,7 @@ __weak void KeyProcessHandler(const Key_Typedef keys) {
 }
 
 void KeyHandlerCore(void) {
-  KEY1 = KEY2 = 0;//先把输入端口拉低，检测高电平
+//  KEY1 = KEY2 = 0;//先把输入端口拉低，检测高电平
   switch (mykeys.k1) {
     case NONE: {
       if (KEY1 == 1) {

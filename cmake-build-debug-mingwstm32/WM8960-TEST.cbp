@@ -19,7 +19,7 @@
 			</Target>
 			<Target title="WM8960-TEST.elf">
 				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -27,6 +27,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App"/>
@@ -43,7 +44,6 @@
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
@@ -60,7 +60,7 @@
 			</Target>
 			<Target title="WM8960-TEST.elf/fast">
 				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"/>
+				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -68,6 +68,7 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App"/>
@@ -84,7 +85,6 @@
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
 					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>

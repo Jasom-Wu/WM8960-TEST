@@ -68,1083 +68,1083 @@ include CMakeFiles/WM8960-TEST.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/WM8960-TEST.elf.dir/flags.make
 
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960.c
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c > CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Apps.c
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c > CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.c
-CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c > CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/dma.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/freertos.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/gpio.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2c.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2s.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/main.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sdio.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_msp.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_timebase_tim.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_it.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/syscalls.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sysmem.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/system_stm32f1xx.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/usart.c
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Startup/startup_stm32f103vetx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.s.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s > CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.s.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s -o CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.s.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App/fatfs.c
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c > CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target/bsp_driver_sd.c
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c > CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/diskio.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/cc936.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/syscall.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/list.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/queue.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/timers.c
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usb_device.c
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_desc.c
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_storage_if.c
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.c.s
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target/usbd_conf.c
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.i"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.c.i
-
-CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.s"
-	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.c.s
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960.c
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c > CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Apps.c
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c > CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\WM8960Apps.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\WM8960Apps.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.c
+CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c > CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Code\bsp_key.c -o CMakeFiles\WM8960-TEST.elf.dir\Code\bsp_key.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/dma.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\dma.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\dma.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/freertos.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\freertos.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\freertos.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/gpio.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\gpio.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\gpio.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2c.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2c.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2c.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2s.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\i2s.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\i2s.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/main.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\main.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\main.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sdio.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sdio.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sdio.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_msp.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_msp.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_msp.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_timebase_tim.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_hal_timebase_tim.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_hal_timebase_tim.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_it.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\stm32f1xx_it.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\stm32f1xx_it.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/syscalls.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\syscalls.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sysmem.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\sysmem.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/system_stm32f1xx.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\system_stm32f1xx.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\system_stm32f1xx.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/usart.c
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c > CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\usart.c -o CMakeFiles\WM8960-TEST.elf.dir\Core\Src\usart.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Startup/startup_stm32f103vetx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s > CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Startup\startup_stm32f103vetx.s -o CMakeFiles\WM8960-TEST.elf.dir\Core\Startup\startup_stm32f103vetx.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2s.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_sd.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_sdmmc.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c > CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.c -o CMakeFiles\WM8960-TEST.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.s
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App/fatfs.c
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj -MF CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c > CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.i
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\App\fatfs.c -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\App\fatfs.s
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target/bsp_driver_sd.c
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj -MF CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c > CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.i
+
+CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\FATFS\Target\bsp_driver_sd.c -o CMakeFiles\WM8960-TEST.elf.dir\FATFS\Target\bsp_driver_sd.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_bot.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_data.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Class\MSC\Src\usbd_msc_scsi.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/diskio.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\diskio.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\drivers\sd_diskio.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/cc936.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\cc936.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/syscall.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/list.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.s
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj -MF CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.i
+
+CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\WM8960-TEST.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.s
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usb_device.c
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.i
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usb_device.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usb_device.s
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_desc.c
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.i
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_desc.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_desc.s
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_storage_if.c
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.i
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\App\usbd_storage_if.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\App\usbd_storage_if.s
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj: CMakeFiles/WM8960-TEST.elf.dir/flags.make
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj: E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target/usbd_conf.c
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj: CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj -MF CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.obj.d -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.obj -c E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.i"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c > CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.i
+
+CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.s"
+	E:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\USB_DEVICE\Target\usbd_conf.c -o CMakeFiles\WM8960-TEST.elf.dir\USB_DEVICE\Target\usbd_conf.s
 
 # Object files for target WM8960-TEST.elf
 WM8960__TEST_elf_OBJECTS = \
-"CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj" \
-"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj"
+"CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj" \
+"CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj"
 
 # External object files for target WM8960-TEST.elf
 WM8960__TEST_elf_EXTERNAL_OBJECTS =
 
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj
-WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj
+WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj
 WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/build.make
 WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/objects1.rsp
 WM8960-TEST.elf: CMakeFiles/WM8960-TEST.elf.dir/link.txt

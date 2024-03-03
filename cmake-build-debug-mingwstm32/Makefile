@@ -128,1597 +128,1000 @@ WM8960-TEST.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/build
 .PHONY : WM8960-TEST.elf/fast
 
-Code/WM8960.obj: Code/WM8960.c.obj
+# target to build an object file
+Code/WM8960.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj
 .PHONY : Code/WM8960.obj
 
-# target to build an object file
-Code/WM8960.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj
-.PHONY : Code/WM8960.c.obj
-
-Code/WM8960.i: Code/WM8960.c.i
+# target to preprocess a source file
+Code/WM8960.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.i
 .PHONY : Code/WM8960.i
 
-# target to preprocess a source file
-Code/WM8960.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.i
-.PHONY : Code/WM8960.c.i
-
-Code/WM8960.s: Code/WM8960.c.s
+# target to generate assembly for a file
+Code/WM8960.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.s
 .PHONY : Code/WM8960.s
 
-# target to generate assembly for a file
-Code/WM8960.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.s
-.PHONY : Code/WM8960.c.s
-
-Code/WM8960Apps.obj: Code/WM8960Apps.c.obj
+# target to build an object file
+Code/WM8960Apps.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj
 .PHONY : Code/WM8960Apps.obj
 
-# target to build an object file
-Code/WM8960Apps.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj
-.PHONY : Code/WM8960Apps.c.obj
-
-Code/WM8960Apps.i: Code/WM8960Apps.c.i
+# target to preprocess a source file
+Code/WM8960Apps.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.i
 .PHONY : Code/WM8960Apps.i
 
-# target to preprocess a source file
-Code/WM8960Apps.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.i
-.PHONY : Code/WM8960Apps.c.i
-
-Code/WM8960Apps.s: Code/WM8960Apps.c.s
+# target to generate assembly for a file
+Code/WM8960Apps.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.s
 .PHONY : Code/WM8960Apps.s
 
-# target to generate assembly for a file
-Code/WM8960Apps.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.s
-.PHONY : Code/WM8960Apps.c.s
-
-Code/bsp_key.obj: Code/bsp_key.c.obj
+# target to build an object file
+Code/bsp_key.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.obj
 .PHONY : Code/bsp_key.obj
 
-# target to build an object file
-Code/bsp_key.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj
-.PHONY : Code/bsp_key.c.obj
-
-Code/bsp_key.i: Code/bsp_key.c.i
+# target to preprocess a source file
+Code/bsp_key.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.i
 .PHONY : Code/bsp_key.i
 
-# target to preprocess a source file
-Code/bsp_key.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.i
-.PHONY : Code/bsp_key.c.i
-
-Code/bsp_key.s: Code/bsp_key.c.s
+# target to generate assembly for a file
+Code/bsp_key.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.s
 .PHONY : Code/bsp_key.s
 
-# target to generate assembly for a file
-Code/bsp_key.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.s
-.PHONY : Code/bsp_key.c.s
-
-Core/Src/dma.obj: Core/Src/dma.c.obj
+# target to build an object file
+Core/Src/dma.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.obj
 .PHONY : Core/Src/dma.obj
 
-# target to build an object file
-Core/Src/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj
-.PHONY : Core/Src/dma.c.obj
-
-Core/Src/dma.i: Core/Src/dma.c.i
+# target to preprocess a source file
+Core/Src/dma.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.i
 .PHONY : Core/Src/dma.i
 
-# target to preprocess a source file
-Core/Src/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.i
-.PHONY : Core/Src/dma.c.i
-
-Core/Src/dma.s: Core/Src/dma.c.s
+# target to generate assembly for a file
+Core/Src/dma.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.s
 .PHONY : Core/Src/dma.s
 
-# target to generate assembly for a file
-Core/Src/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.s
-.PHONY : Core/Src/dma.c.s
-
-Core/Src/freertos.obj: Core/Src/freertos.c.obj
+# target to build an object file
+Core/Src/freertos.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj
 .PHONY : Core/Src/freertos.obj
 
-# target to build an object file
-Core/Src/freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj
-.PHONY : Core/Src/freertos.c.obj
-
-Core/Src/freertos.i: Core/Src/freertos.c.i
+# target to preprocess a source file
+Core/Src/freertos.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.i
 .PHONY : Core/Src/freertos.i
 
-# target to preprocess a source file
-Core/Src/freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.i
-.PHONY : Core/Src/freertos.c.i
-
-Core/Src/freertos.s: Core/Src/freertos.c.s
+# target to generate assembly for a file
+Core/Src/freertos.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.s
 .PHONY : Core/Src/freertos.s
 
-# target to generate assembly for a file
-Core/Src/freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.s
-.PHONY : Core/Src/freertos.c.s
-
-Core/Src/gpio.obj: Core/Src/gpio.c.obj
+# target to build an object file
+Core/Src/gpio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.obj
 .PHONY : Core/Src/gpio.obj
 
-# target to build an object file
-Core/Src/gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj
-.PHONY : Core/Src/gpio.c.obj
-
-Core/Src/gpio.i: Core/Src/gpio.c.i
+# target to preprocess a source file
+Core/Src/gpio.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.i
 .PHONY : Core/Src/gpio.i
 
-# target to preprocess a source file
-Core/Src/gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.i
-.PHONY : Core/Src/gpio.c.i
-
-Core/Src/gpio.s: Core/Src/gpio.c.s
+# target to generate assembly for a file
+Core/Src/gpio.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.s
 .PHONY : Core/Src/gpio.s
 
-# target to generate assembly for a file
-Core/Src/gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.s
-.PHONY : Core/Src/gpio.c.s
-
-Core/Src/i2c.obj: Core/Src/i2c.c.obj
+# target to build an object file
+Core/Src/i2c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj
 .PHONY : Core/Src/i2c.obj
 
-# target to build an object file
-Core/Src/i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj
-.PHONY : Core/Src/i2c.c.obj
-
-Core/Src/i2c.i: Core/Src/i2c.c.i
+# target to preprocess a source file
+Core/Src/i2c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.i
 .PHONY : Core/Src/i2c.i
 
-# target to preprocess a source file
-Core/Src/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.i
-.PHONY : Core/Src/i2c.c.i
-
-Core/Src/i2c.s: Core/Src/i2c.c.s
+# target to generate assembly for a file
+Core/Src/i2c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.s
 .PHONY : Core/Src/i2c.s
 
-# target to generate assembly for a file
-Core/Src/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.s
-.PHONY : Core/Src/i2c.c.s
-
-Core/Src/i2s.obj: Core/Src/i2s.c.obj
+# target to build an object file
+Core/Src/i2s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.obj
 .PHONY : Core/Src/i2s.obj
 
-# target to build an object file
-Core/Src/i2s.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj
-.PHONY : Core/Src/i2s.c.obj
-
-Core/Src/i2s.i: Core/Src/i2s.c.i
+# target to preprocess a source file
+Core/Src/i2s.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.i
 .PHONY : Core/Src/i2s.i
 
-# target to preprocess a source file
-Core/Src/i2s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.i
-.PHONY : Core/Src/i2s.c.i
-
-Core/Src/i2s.s: Core/Src/i2s.c.s
+# target to generate assembly for a file
+Core/Src/i2s.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.s
 .PHONY : Core/Src/i2s.s
 
-# target to generate assembly for a file
-Core/Src/i2s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.s
-.PHONY : Core/Src/i2s.c.s
-
-Core/Src/main.obj: Core/Src/main.c.obj
+# target to build an object file
+Core/Src/main.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.obj
 .PHONY : Core/Src/main.obj
 
-# target to build an object file
-Core/Src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj
-.PHONY : Core/Src/main.c.obj
-
-Core/Src/main.i: Core/Src/main.c.i
+# target to preprocess a source file
+Core/Src/main.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.i
 .PHONY : Core/Src/main.i
 
-# target to preprocess a source file
-Core/Src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.i
-.PHONY : Core/Src/main.c.i
-
-Core/Src/main.s: Core/Src/main.c.s
+# target to generate assembly for a file
+Core/Src/main.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.s
 .PHONY : Core/Src/main.s
 
-# target to generate assembly for a file
-Core/Src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.s
-.PHONY : Core/Src/main.c.s
-
-Core/Src/sdio.obj: Core/Src/sdio.c.obj
+# target to build an object file
+Core/Src/sdio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.obj
 .PHONY : Core/Src/sdio.obj
 
-# target to build an object file
-Core/Src/sdio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj
-.PHONY : Core/Src/sdio.c.obj
-
-Core/Src/sdio.i: Core/Src/sdio.c.i
+# target to preprocess a source file
+Core/Src/sdio.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.i
 .PHONY : Core/Src/sdio.i
 
-# target to preprocess a source file
-Core/Src/sdio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.i
-.PHONY : Core/Src/sdio.c.i
-
-Core/Src/sdio.s: Core/Src/sdio.c.s
+# target to generate assembly for a file
+Core/Src/sdio.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.s
 .PHONY : Core/Src/sdio.s
 
-# target to generate assembly for a file
-Core/Src/sdio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.s
-.PHONY : Core/Src/sdio.c.s
-
-Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
+# target to build an object file
+Core/Src/stm32f1xx_hal_msp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
 
-# target to build an object file
-Core/Src/stm32f1xx_hal_msp.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.obj
-
-Core/Src/stm32f1xx_hal_msp.i: Core/Src/stm32f1xx_hal_msp.c.i
+# target to preprocess a source file
+Core/Src/stm32f1xx_hal_msp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.i
 .PHONY : Core/Src/stm32f1xx_hal_msp.i
 
-# target to preprocess a source file
-Core/Src/stm32f1xx_hal_msp.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.i
-
-Core/Src/stm32f1xx_hal_msp.s: Core/Src/stm32f1xx_hal_msp.c.s
+# target to generate assembly for a file
+Core/Src/stm32f1xx_hal_msp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.s
 .PHONY : Core/Src/stm32f1xx_hal_msp.s
 
-# target to generate assembly for a file
-Core/Src/stm32f1xx_hal_msp.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s
-.PHONY : Core/Src/stm32f1xx_hal_msp.c.s
-
-Core/Src/stm32f1xx_hal_timebase_tim.obj: Core/Src/stm32f1xx_hal_timebase_tim.c.obj
+# target to build an object file
+Core/Src/stm32f1xx_hal_timebase_tim.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.obj
 .PHONY : Core/Src/stm32f1xx_hal_timebase_tim.obj
 
-# target to build an object file
-Core/Src/stm32f1xx_hal_timebase_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj
-.PHONY : Core/Src/stm32f1xx_hal_timebase_tim.c.obj
-
-Core/Src/stm32f1xx_hal_timebase_tim.i: Core/Src/stm32f1xx_hal_timebase_tim.c.i
+# target to preprocess a source file
+Core/Src/stm32f1xx_hal_timebase_tim.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.i
 .PHONY : Core/Src/stm32f1xx_hal_timebase_tim.i
 
-# target to preprocess a source file
-Core/Src/stm32f1xx_hal_timebase_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.i
-.PHONY : Core/Src/stm32f1xx_hal_timebase_tim.c.i
-
-Core/Src/stm32f1xx_hal_timebase_tim.s: Core/Src/stm32f1xx_hal_timebase_tim.c.s
+# target to generate assembly for a file
+Core/Src/stm32f1xx_hal_timebase_tim.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.s
 .PHONY : Core/Src/stm32f1xx_hal_timebase_tim.s
 
-# target to generate assembly for a file
-Core/Src/stm32f1xx_hal_timebase_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.s
-.PHONY : Core/Src/stm32f1xx_hal_timebase_tim.c.s
-
-Core/Src/stm32f1xx_it.obj: Core/Src/stm32f1xx_it.c.obj
+# target to build an object file
+Core/Src/stm32f1xx_it.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.obj
 .PHONY : Core/Src/stm32f1xx_it.obj
 
-# target to build an object file
-Core/Src/stm32f1xx_it.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj
-.PHONY : Core/Src/stm32f1xx_it.c.obj
-
-Core/Src/stm32f1xx_it.i: Core/Src/stm32f1xx_it.c.i
+# target to preprocess a source file
+Core/Src/stm32f1xx_it.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.i
 .PHONY : Core/Src/stm32f1xx_it.i
 
-# target to preprocess a source file
-Core/Src/stm32f1xx_it.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.i
-.PHONY : Core/Src/stm32f1xx_it.c.i
-
-Core/Src/stm32f1xx_it.s: Core/Src/stm32f1xx_it.c.s
+# target to generate assembly for a file
+Core/Src/stm32f1xx_it.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.s
 .PHONY : Core/Src/stm32f1xx_it.s
 
-# target to generate assembly for a file
-Core/Src/stm32f1xx_it.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.s
-.PHONY : Core/Src/stm32f1xx_it.c.s
-
-Core/Src/syscalls.obj: Core/Src/syscalls.c.obj
+# target to build an object file
+Core/Src/syscalls.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj
 .PHONY : Core/Src/syscalls.obj
 
-# target to build an object file
-Core/Src/syscalls.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj
-.PHONY : Core/Src/syscalls.c.obj
-
-Core/Src/syscalls.i: Core/Src/syscalls.c.i
+# target to preprocess a source file
+Core/Src/syscalls.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.i
 .PHONY : Core/Src/syscalls.i
 
-# target to preprocess a source file
-Core/Src/syscalls.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.i
-.PHONY : Core/Src/syscalls.c.i
-
-Core/Src/syscalls.s: Core/Src/syscalls.c.s
+# target to generate assembly for a file
+Core/Src/syscalls.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.s
 .PHONY : Core/Src/syscalls.s
 
-# target to generate assembly for a file
-Core/Src/syscalls.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.s
-.PHONY : Core/Src/syscalls.c.s
-
-Core/Src/sysmem.obj: Core/Src/sysmem.c.obj
+# target to build an object file
+Core/Src/sysmem.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj
 .PHONY : Core/Src/sysmem.obj
 
-# target to build an object file
-Core/Src/sysmem.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj
-.PHONY : Core/Src/sysmem.c.obj
-
-Core/Src/sysmem.i: Core/Src/sysmem.c.i
+# target to preprocess a source file
+Core/Src/sysmem.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.i
 .PHONY : Core/Src/sysmem.i
 
-# target to preprocess a source file
-Core/Src/sysmem.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.i
-.PHONY : Core/Src/sysmem.c.i
-
-Core/Src/sysmem.s: Core/Src/sysmem.c.s
+# target to generate assembly for a file
+Core/Src/sysmem.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.s
 .PHONY : Core/Src/sysmem.s
 
-# target to generate assembly for a file
-Core/Src/sysmem.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.s
-.PHONY : Core/Src/sysmem.c.s
-
-Core/Src/system_stm32f1xx.obj: Core/Src/system_stm32f1xx.c.obj
+# target to build an object file
+Core/Src/system_stm32f1xx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.obj
 .PHONY : Core/Src/system_stm32f1xx.obj
 
-# target to build an object file
-Core/Src/system_stm32f1xx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj
-.PHONY : Core/Src/system_stm32f1xx.c.obj
-
-Core/Src/system_stm32f1xx.i: Core/Src/system_stm32f1xx.c.i
+# target to preprocess a source file
+Core/Src/system_stm32f1xx.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.i
 .PHONY : Core/Src/system_stm32f1xx.i
 
-# target to preprocess a source file
-Core/Src/system_stm32f1xx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.i
-.PHONY : Core/Src/system_stm32f1xx.c.i
-
-Core/Src/system_stm32f1xx.s: Core/Src/system_stm32f1xx.c.s
+# target to generate assembly for a file
+Core/Src/system_stm32f1xx.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.s
 .PHONY : Core/Src/system_stm32f1xx.s
 
-# target to generate assembly for a file
-Core/Src/system_stm32f1xx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.s
-.PHONY : Core/Src/system_stm32f1xx.c.s
-
-Core/Src/usart.obj: Core/Src/usart.c.obj
+# target to build an object file
+Core/Src/usart.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.obj
 .PHONY : Core/Src/usart.obj
 
-# target to build an object file
-Core/Src/usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj
-.PHONY : Core/Src/usart.c.obj
-
-Core/Src/usart.i: Core/Src/usart.c.i
+# target to preprocess a source file
+Core/Src/usart.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.i
 .PHONY : Core/Src/usart.i
 
-# target to preprocess a source file
-Core/Src/usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.i
-.PHONY : Core/Src/usart.c.i
-
-Core/Src/usart.s: Core/Src/usart.c.s
+# target to generate assembly for a file
+Core/Src/usart.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.s
 .PHONY : Core/Src/usart.s
 
-# target to generate assembly for a file
-Core/Src/usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.s
-.PHONY : Core/Src/usart.c.s
-
-Core/Startup/startup_stm32f103vetx.obj: Core/Startup/startup_stm32f103vetx.s.obj
+# target to build an object file
+Core/Startup/startup_stm32f103vetx.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.obj
 .PHONY : Core/Startup/startup_stm32f103vetx.obj
 
 # target to build an object file
-Core/Startup/startup_stm32f103vetx.s.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj
-.PHONY : Core/Startup/startup_stm32f103vetx.s.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.s
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.obj
 
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.i
 
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.i
-
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.s
 
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.s
-
-FATFS/App/fatfs.obj: FATFS/App/fatfs.c.obj
+# target to build an object file
+FATFS/App/fatfs.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.obj
 .PHONY : FATFS/App/fatfs.obj
 
-# target to build an object file
-FATFS/App/fatfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj
-.PHONY : FATFS/App/fatfs.c.obj
-
-FATFS/App/fatfs.i: FATFS/App/fatfs.c.i
+# target to preprocess a source file
+FATFS/App/fatfs.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.i
 .PHONY : FATFS/App/fatfs.i
 
-# target to preprocess a source file
-FATFS/App/fatfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.i
-.PHONY : FATFS/App/fatfs.c.i
-
-FATFS/App/fatfs.s: FATFS/App/fatfs.c.s
+# target to generate assembly for a file
+FATFS/App/fatfs.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.s
 .PHONY : FATFS/App/fatfs.s
 
-# target to generate assembly for a file
-FATFS/App/fatfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.s
-.PHONY : FATFS/App/fatfs.c.s
-
-FATFS/Target/bsp_driver_sd.obj: FATFS/Target/bsp_driver_sd.c.obj
+# target to build an object file
+FATFS/Target/bsp_driver_sd.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.obj
 .PHONY : FATFS/Target/bsp_driver_sd.obj
 
-# target to build an object file
-FATFS/Target/bsp_driver_sd.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj
-.PHONY : FATFS/Target/bsp_driver_sd.c.obj
-
-FATFS/Target/bsp_driver_sd.i: FATFS/Target/bsp_driver_sd.c.i
+# target to preprocess a source file
+FATFS/Target/bsp_driver_sd.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.i
 .PHONY : FATFS/Target/bsp_driver_sd.i
 
-# target to preprocess a source file
-FATFS/Target/bsp_driver_sd.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.i
-.PHONY : FATFS/Target/bsp_driver_sd.c.i
-
-FATFS/Target/bsp_driver_sd.s: FATFS/Target/bsp_driver_sd.c.s
+# target to generate assembly for a file
+FATFS/Target/bsp_driver_sd.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.s
 .PHONY : FATFS/Target/bsp_driver_sd.s
 
-# target to generate assembly for a file
-FATFS/Target/bsp_driver_sd.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.s
-.PHONY : FATFS/Target/bsp_driver_sd.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s: Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.s
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+# target to build an object file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.obj
 
-# target to build an object file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
+# target to preprocess a source file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.i
 
-# target to preprocess a source file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.i
-
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s: Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
+# target to generate assembly for a file
+Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
 .PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.s
 
-# target to generate assembly for a file
-Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
-.PHONY : Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.s
-
-Middlewares/Third_Party/FatFs/src/diskio.obj: Middlewares/Third_Party/FatFs/src/diskio.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/diskio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.obj
-
-Middlewares/Third_Party/FatFs/src/diskio.i: Middlewares/Third_Party/FatFs/src/diskio.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/diskio.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.i
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.i
-
-Middlewares/Third_Party/FatFs/src/diskio.s: Middlewares/Third_Party/FatFs/src/diskio.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/diskio.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.s
 .PHONY : Middlewares/Third_Party/FatFs/src/diskio.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/diskio.c.s
-
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj: Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj
-
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i: Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i
 .PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.i
-
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s: Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s
 .PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.s
-
-Middlewares/Third_Party/FatFs/src/ff.obj: Middlewares/Third_Party/FatFs/src/ff.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/ff.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.obj
-
-Middlewares/Third_Party/FatFs/src/ff.i: Middlewares/Third_Party/FatFs/src/ff.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.i
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/ff.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.i
-
-Middlewares/Third_Party/FatFs/src/ff.s: Middlewares/Third_Party/FatFs/src/ff.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.s
 .PHONY : Middlewares/Third_Party/FatFs/src/ff.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/ff.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/ff.c.s
-
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
-
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.i: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i
-
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.s: Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/ff_gen_drv.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
 .PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s
-
-Middlewares/Third_Party/FatFs/src/option/cc936.obj: Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/cc936.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/option/cc936.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
-
-Middlewares/Third_Party/FatFs/src/option/cc936.i: Middlewares/Third_Party/FatFs/src/option/cc936.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/cc936.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.i
 .PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/option/cc936.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.i
-
-Middlewares/Third_Party/FatFs/src/option/cc936.s: Middlewares/Third_Party/FatFs/src/option/cc936.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/cc936.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.s
 .PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/option/cc936.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/option/cc936.c.s
-
-Middlewares/Third_Party/FatFs/src/option/syscall.obj: Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+# target to build an object file
+Middlewares/Third_Party/FatFs/src/option/syscall.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.obj
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.obj
 
-# target to build an object file
-Middlewares/Third_Party/FatFs/src/option/syscall.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
-.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
-
-Middlewares/Third_Party/FatFs/src/option/syscall.i: Middlewares/Third_Party/FatFs/src/option/syscall.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FatFs/src/option/syscall.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.i
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FatFs/src/option/syscall.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i
-.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.i
-
-Middlewares/Third_Party/FatFs/src/option/syscall.s: Middlewares/Third_Party/FatFs/src/option/syscall.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FatFs/src/option/syscall.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.s
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FatFs/src/option/syscall.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
-.PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s: Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/croutine.obj: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/croutine.i: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/croutine.s: Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/croutine.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.i: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.s: Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/event_groups.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/list.obj: Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/list.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/list.i: Middlewares/Third_Party/FreeRTOS/Source/list.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/list.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/list.s: Middlewares/Third_Party/FreeRTOS/Source/list.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/list.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/list.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s: Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/queue.obj: Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/queue.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/queue.i: Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/queue.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/queue.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/queue.s: Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/queue.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/queue.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/queue.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s: Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/tasks.obj: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/tasks.i: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/tasks.s: Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/tasks.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s
-
-Middlewares/Third_Party/FreeRTOS/Source/timers.obj: Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+# target to build an object file
+Middlewares/Third_Party/FreeRTOS/Source/timers.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.obj
 
-# target to build an object file
-Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-
-Middlewares/Third_Party/FreeRTOS/Source/timers.i: Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
+# target to preprocess a source file
+Middlewares/Third_Party/FreeRTOS/Source/timers.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.i
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.i
 
-# target to preprocess a source file
-Middlewares/Third_Party/FreeRTOS/Source/timers.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.i
-
-Middlewares/Third_Party/FreeRTOS/Source/timers.s: Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
+# target to generate assembly for a file
+Middlewares/Third_Party/FreeRTOS/Source/timers.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.s
 .PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.s
 
-# target to generate assembly for a file
-Middlewares/Third_Party/FreeRTOS/Source/timers.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
-.PHONY : Middlewares/Third_Party/FreeRTOS/Source/timers.c.s
-
-USB_DEVICE/App/usb_device.obj: USB_DEVICE/App/usb_device.c.obj
+# target to build an object file
+USB_DEVICE/App/usb_device.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.obj
 .PHONY : USB_DEVICE/App/usb_device.obj
 
-# target to build an object file
-USB_DEVICE/App/usb_device.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj
-.PHONY : USB_DEVICE/App/usb_device.c.obj
-
-USB_DEVICE/App/usb_device.i: USB_DEVICE/App/usb_device.c.i
+# target to preprocess a source file
+USB_DEVICE/App/usb_device.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.i
 .PHONY : USB_DEVICE/App/usb_device.i
 
-# target to preprocess a source file
-USB_DEVICE/App/usb_device.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.i
-.PHONY : USB_DEVICE/App/usb_device.c.i
-
-USB_DEVICE/App/usb_device.s: USB_DEVICE/App/usb_device.c.s
+# target to generate assembly for a file
+USB_DEVICE/App/usb_device.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.s
 .PHONY : USB_DEVICE/App/usb_device.s
 
-# target to generate assembly for a file
-USB_DEVICE/App/usb_device.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.s
-.PHONY : USB_DEVICE/App/usb_device.c.s
-
-USB_DEVICE/App/usbd_desc.obj: USB_DEVICE/App/usbd_desc.c.obj
+# target to build an object file
+USB_DEVICE/App/usbd_desc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.obj
 .PHONY : USB_DEVICE/App/usbd_desc.obj
 
-# target to build an object file
-USB_DEVICE/App/usbd_desc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj
-.PHONY : USB_DEVICE/App/usbd_desc.c.obj
-
-USB_DEVICE/App/usbd_desc.i: USB_DEVICE/App/usbd_desc.c.i
+# target to preprocess a source file
+USB_DEVICE/App/usbd_desc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.i
 .PHONY : USB_DEVICE/App/usbd_desc.i
 
-# target to preprocess a source file
-USB_DEVICE/App/usbd_desc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.i
-.PHONY : USB_DEVICE/App/usbd_desc.c.i
-
-USB_DEVICE/App/usbd_desc.s: USB_DEVICE/App/usbd_desc.c.s
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_desc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.s
 .PHONY : USB_DEVICE/App/usbd_desc.s
 
-# target to generate assembly for a file
-USB_DEVICE/App/usbd_desc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.s
-.PHONY : USB_DEVICE/App/usbd_desc.c.s
-
-USB_DEVICE/App/usbd_storage_if.obj: USB_DEVICE/App/usbd_storage_if.c.obj
+# target to build an object file
+USB_DEVICE/App/usbd_storage_if.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.obj
 .PHONY : USB_DEVICE/App/usbd_storage_if.obj
 
-# target to build an object file
-USB_DEVICE/App/usbd_storage_if.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj
-.PHONY : USB_DEVICE/App/usbd_storage_if.c.obj
-
-USB_DEVICE/App/usbd_storage_if.i: USB_DEVICE/App/usbd_storage_if.c.i
+# target to preprocess a source file
+USB_DEVICE/App/usbd_storage_if.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.i
 .PHONY : USB_DEVICE/App/usbd_storage_if.i
 
-# target to preprocess a source file
-USB_DEVICE/App/usbd_storage_if.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.i
-.PHONY : USB_DEVICE/App/usbd_storage_if.c.i
-
-USB_DEVICE/App/usbd_storage_if.s: USB_DEVICE/App/usbd_storage_if.c.s
+# target to generate assembly for a file
+USB_DEVICE/App/usbd_storage_if.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.s
 .PHONY : USB_DEVICE/App/usbd_storage_if.s
 
-# target to generate assembly for a file
-USB_DEVICE/App/usbd_storage_if.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.s
-.PHONY : USB_DEVICE/App/usbd_storage_if.c.s
-
-USB_DEVICE/Target/usbd_conf.obj: USB_DEVICE/Target/usbd_conf.c.obj
+# target to build an object file
+USB_DEVICE/Target/usbd_conf.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.obj
 .PHONY : USB_DEVICE/Target/usbd_conf.obj
 
-# target to build an object file
-USB_DEVICE/Target/usbd_conf.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj
-.PHONY : USB_DEVICE/Target/usbd_conf.c.obj
-
-USB_DEVICE/Target/usbd_conf.i: USB_DEVICE/Target/usbd_conf.c.i
+# target to preprocess a source file
+USB_DEVICE/Target/usbd_conf.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.i
 .PHONY : USB_DEVICE/Target/usbd_conf.i
 
-# target to preprocess a source file
-USB_DEVICE/Target/usbd_conf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.i
-.PHONY : USB_DEVICE/Target/usbd_conf.c.i
-
-USB_DEVICE/Target/usbd_conf.s: USB_DEVICE/Target/usbd_conf.c.s
-.PHONY : USB_DEVICE/Target/usbd_conf.s
-
 # target to generate assembly for a file
-USB_DEVICE/Target/usbd_conf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.s
-.PHONY : USB_DEVICE/Target/usbd_conf.c.s
+USB_DEVICE/Target/usbd_conf.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.s
+.PHONY : USB_DEVICE/Target/usbd_conf.s
 
 # Help Target
 help:
