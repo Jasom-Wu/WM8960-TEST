@@ -415,7 +415,9 @@ uint8_t PlayWaveFile(char *pname){
     }
   }
   HAL_I2S_DMAStop(&hi2s2);
-  HAL_I2S_Transmit(&hi2s2,(uint16_t*)WAV_Buffer, WAV_LastData/2,0xffff);
+  if(audio_play_request == AUDIO_END){
+    HAL_I2S_Transmit(&hi2s2,(uint16_t*)WAV_Buffer, WAV_LastData/2,0xffff);
+  }
   f_close(&WAV_File);
   audio_play_request = AUDIO_NONE;
   PBout(5) = 1;

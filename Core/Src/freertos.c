@@ -166,7 +166,7 @@ void StartMainTask(void const * argument)
   static portTickType PreviousWakeTime;
   const portTickType TimeIncrement = pdMS_TO_TICKS(50);
   PreviousWakeTime = xTaskGetTickCount();
-  ScanWavefiles("0:/REC");
+  ScanWavefiles("0:/WAV");
   /* Infinite loop */
   for(;;)
   {

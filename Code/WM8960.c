@@ -67,13 +67,13 @@ uint8_t WM89060_Init(uint8_t mode)  {
   
   //Set Power Source
 
-  res =  WM8960_Write_Reg(0x19, 1<<7 | 1<<6 );//VMID为2 x 50kΩ,VREF
+  res =  WM8960_Write_Reg(0x19, 1<<7 | 1<<6 | 1<<1 );//VMID为2 x 50kΩ,VREF、MICB
   res += WM8960_Write_Reg(0x2F, 1<<3 | 1<<2);//LOMIX,ROMIX enable
   if(mode & WM8960_MODE_DAC_ENABLE){
     res += WM8960_Write_Reg(0x1A,WM8960_REG_VAL[0x1A] | 1<<8 | 1<<7 | 1<<6 | 1<<5 | 1<<4 | 1<<3 | 1<<1);//DAC、OUT1、SPK、OUT3
   }
   if(mode & WM8960_MODE_ADC_ENABLE){
-    res +=  WM8960_Write_Reg(0x19,WM8960_REG_VAL[0x19] | 1<<5|1<<4|1<<3|1<<2|1<<1);// 0x00E8);ADCL、ADCR、AINL、AINR、MICB
+    res +=  WM8960_Write_Reg(0x19,WM8960_REG_VAL[0x19] | 1<<5|1<<4|1<<3|1<<2);// 0x00E8);ADCL、ADCR、AINL、AINR
     res += WM8960_Write_Reg(0x2F,WM8960_REG_VAL[0x2F] | 1<<5 | 1<<4);//LMIC,RMIC
   }
   if(res != 0)  {
@@ -98,8 +98,8 @@ uint8_t WM89060_Init(uint8_t mode)  {
     WM8960_Write_Reg(0x03, 1<<7 | 0x006F | 0x0100);  //ROUT1 Volume Set +6dB-16dB=-10dB Zero Cross Enable
 
     //Configure SPK_P and SPK_N
-    WM8960_Write_Reg(0x28, 1<<7 | 0x007F | 0x0100); //Left Speaker Volume  Full +6dB Zero Cross Enable
-    WM8960_Write_Reg(0x29, 1<<7 | 0x007F | 0x0100); //Right Speaker Volume Full +6dB
+    WM8960_Write_Reg(0x28, 1<<7 | 0x007a | 0x0100); //Left Speaker Volume  Full +6dB Zero Cross Enable
+    WM8960_Write_Reg(0x29, 1<<7 | 0x007a | 0x0100); //Right Speaker Volume Full +6dB
 
     //Enable the OUTPUTS
     WM8960_Write_Reg(0x31, WM8960_REG_VAL[0x31] | 1<<6 | 1<<7); //Enable Class D Speaker Outputs Left and Right
@@ -138,8 +138,8 @@ uint8_t WM89060_Init(uint8_t mode)  {
 /*********ADC*********/
 
     //ADC Digital Volume Control
-    WM8960_Write_Reg(0x15, 0x00E1 | 0x0100);//LEFT +30dB - 0.5dB*30 = +15dB
-    WM8960_Write_Reg(0x16, 0x00E1 | 0x0100);//RIGHT +30dB - 0.5dB*30 = +15dB
+    WM8960_Write_Reg(0x15, 0x00EA | 0x0100);//LEFT +30dB - 0.5dB*20 = +20dB
+    WM8960_Write_Reg(0x16, 0x00EA | 0x0100);//RIGHT +30dB - 0.5dB*20 = +20dB
 
 #ifdef USE_BOARD_MIC
     WM8960_Write_Reg(0x17, 1<<2);//ADC两个声道采用leftADCdata

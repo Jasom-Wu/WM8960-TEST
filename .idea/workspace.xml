@@ -22,167 +22,13 @@
   <component name="ChangeListManager">
     <list default="true" id="52f90647-e7f7-4f30-b9f5-d5b6042051b2" name="变更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/WM8960.c" beforeDir="false" afterPath="$PROJECT_DIR$/Code/WM8960.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/WM8960Apps.c" beforeDir="false" afterPath="$PROJECT_DIR$/Code/WM8960Apps.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/WM8960Apps.h" beforeDir="false" afterPath="$PROJECT_DIR$/Code/WM8960Apps.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/bsp_key.c" beforeDir="false" afterPath="$PROJECT_DIR$/Code/bsp_key.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/freertos.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WM8960-TEST.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/WM8960-TEST.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/cache-v2-4b8c9e2730a12beb0c7b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/codemodel-v2-430b5634c51429932b4e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/index-2024-03-02T14-59-47-0475.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/.cmake/api/v1/reply/target-WM8960-TEST.elf-Debug-36bb239fa8b6ccb8f81f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/bsp_key.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/dma.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2s.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/main.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sdio.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_hal_timebase_tim.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/stm32f1xx_it.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/system_stm32f1xx.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/usart.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Startup/startup_stm32f103vetx.s.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/FATFS/App/fatfs.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/FATFS/Target/bsp_driver_sd.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usb_device.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_desc.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/App/usbd_storage_if.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/USB_DEVICE/Target/usbd_conf.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/clion-Debug-MinGWSTM32-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/clion-Debug-MinGWSTM32-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Code/WM8960Apps.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/CMakeFiles/WM8960-TEST.elf.dir/Core/Src/freertos.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.elf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingwstm32/WM8960-TEST.map" afterDir="false" />
@@ -230,19 +76,9 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD 下载并运行.Built&amp;Download">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WM8960-TEST.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WM8960-TEST" TARGET_NAME="WM8960-TEST.elf" CONFIG_NAME="Debug-MinGW(STM32)" RUN_TARGET_PROJECT_NAME="WM8960-TEST" RUN_TARGET_NAME="WM8960-TEST.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="NimRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="nim.task.build.to.cache" enabled="true" />
       </method>
     </configuration>
     <configuration name="Built&amp;Download" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WM8960-TEST" TARGET_NAME="WM8960-TEST.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="WM8960-TEST" RUN_TARGET_NAME="WM8960-TEST.elf">
@@ -270,12 +106,35 @@
       <workItem from="1708761128253" duration="41712000" />
       <workItem from="1709027867655" duration="42786000" />
       <workItem from="1709303393459" duration="43890000" />
-      <workItem from="1709443759505" duration="9391000" />
+      <workItem from="1709443759505" duration="9742000" />
+      <workItem from="1709453692328" duration="5298000" />
+      <workItem from="1709471860493" duration="9000" />
+      <workItem from="1713875166386" duration="1491000" />
+      <workItem from="1713877397227" duration="3220000" />
+      <workItem from="1713946199335" duration="1572000" />
+      <workItem from="1714045838309" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Code/WM8960Apps.c</url>
+          <line>413</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/freertos.c</url>
+          <line>229</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/freertos.c</url>
+          <line>208</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="CidrExceptionBreakpoint" />
       </default-breakpoints>
