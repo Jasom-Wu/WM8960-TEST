@@ -1,11 +1,169 @@
 #include "WM8960.h"
-#include "i2c.h"
 #include "i2s.h"
 #include "stdio.h"
 
-#define WM8960_ADDRESS  0x1a
+#define WM8960_ADDRESS  0x34
 #define USE_BOARD_MIC
 
+void delay_us(uint32_t nus)
+{
+  while(nus--)
+  {
+    __NOP();
+  }
+}
+void IIC_Init(void)
+{
+  GPIO_InitTypeDef GPIO_Initure;
+
+  __HAL_RCC_GPIOB_CLK_ENABLE();   //GPIOB CLOCK ENABLE
+
+  //PB6,PB7 INITIALIZE
+  GPIO_Initure.Pin=GPIO_PIN_8|GPIO_PIN_9;
+  GPIO_Initure.Mode=GPIO_MODE_OUTPUT_OD;
+  GPIO_Initure.Pull=GPIO_NOPULL;
+  GPIO_Initure.Speed=GPIO_SPEED_HIGH;
+  HAL_GPIO_Init(GPIOB,&GPIO_Initure);
+
+  IIC_SDA=1;
+  IIC_SCL=1;
+}
+void SDA_OUT()
+{
+  GPIO_InitTypeDef GPIO_Initure;
+
+  GPIO_Initure.Pin=GPIO_PIN_9;
+  GPIO_Initure.Mode=GPIO_MODE_OUTPUT_OD;
+  GPIO_Initure.Pull=GPIO_NOPULL;
+  GPIO_Initure.Speed=GPIO_SPEED_HIGH;
+  HAL_GPIO_Init(GPIOB,&GPIO_Initure);
+}
+void SDA_IN()
+{
+  GPIO_InitTypeDef GPIO_Initure;
+  GPIO_Initure.Pin=GPIO_PIN_9;
+  GPIO_Initure.Mode=GPIO_MODE_INPUT;
+  GPIO_Initure.Pull=GPIO_NOPULL;
+  GPIO_Initure.Speed=GPIO_SPEED_HIGH;
+  HAL_GPIO_Init(GPIOB,&GPIO_Initure);
+}
+void IIC_Start(void)
+{
+  SDA_OUT();
+  IIC_SDA=1;
+  delay_us(2);
+  IIC_SCL=1;
+  delay_us(2);
+  IIC_SDA=0;
+  delay_us(2);
+  IIC_SCL=0;
+  delay_us(2);
+}
+void IIC_Stop(void)
+{
+  SDA_OUT();
+  IIC_SCL=0;
+  delay_us(2);
+  IIC_SDA=0;
+  delay_us(2);
+  IIC_SCL=1;
+  delay_us(2);
+  IIC_SDA=1;
+  delay_us(2);
+}
+uint8_t IIC_Wait_Ack(void)
+{
+  SDA_IN();
+  delay_us(5);
+  IIC_SCL=1;
+  delay_us(5);
+  if(!READ_SDA)
+  {
+    IIC_SCL=0;
+    return 0;
+  }
+  IIC_SCL=0;
+  return 1;
+}
+void IIC_Ack(void)
+{
+  delay_us(3);
+  SDA_OUT();
+  IIC_SDA=0;
+  delay_us(3);
+  IIC_SCL=1;
+  delay_us(5);
+  IIC_SCL=0;
+}
+void IIC_NAck(void)
+{
+  delay_us(3);
+  SDA_OUT();
+  IIC_SDA=1;
+  delay_us(3);
+  IIC_SCL=1;
+  delay_us(5);
+  IIC_SCL=0;
+}
+void IIC_Send_Byte(uint8_t data)
+{
+  uint8_t i = 8;
+
+  SDA_OUT();
+  while(i--)
+  {
+    IIC_SCL=0;
+    //delay_us(9);
+    if(data & 0x80)
+    {
+      IIC_SDA=1;
+    }
+    else
+    {
+      IIC_SDA=0;
+    }
+
+    delay_us(5);
+    data <<= 1;
+    IIC_SCL=1;
+    delay_us(5);
+    IIC_SCL=0;
+    delay_us(1);
+  }
+}
+
+/**
+  * @brief send one byte command with parameters
+  * return value 3,2,1: failed ,0:success
+  * A data transfer sequence is initiated by the master producing the START
+    condition (S) and sending a write header byte 0xA0, followed by a command
+    byte.Then send the parameter bytes.
+  */
+uint8_t IIC_Write_Bytes(uint8_t * pdata, uint16_t num)
+{
+  uint8_t i;
+  IIC_Start();
+  IIC_Send_Byte(WM8960_ADDRESS);
+  if(IIC_Wait_Ack() == 1)
+  {
+    IIC_Stop();
+    return 1;
+  }
+  delay_us(30);
+
+  for(i = 0; i < num; i++)
+  {
+    IIC_Send_Byte(*pdata++);
+    if(IIC_Wait_Ack() == 1)
+    {
+      IIC_Stop();
+      return 3;
+    }
+    delay_us(50);
+  }
+  IIC_Stop();
+  return 0;
+}
 //resgister value
 static uint16_t WM8960_REG_VAL[56] =
 {  
@@ -31,7 +189,7 @@ uint8_t WM8960_Write_Reg(uint8_t reg, uint16_t dat)  {
   I2C_Data[0] = (reg<<1)|((uint8_t)((dat>>8)&0x0001));  //RegAddr
   I2C_Data[1] = (uint8_t)(dat&0x00FF);                  //RegValue
   
-  res = HAL_I2C_Master_Transmit(&hi2c1,(WM8960_ADDRESS<<1),I2C_Data,2,10);
+  res = IIC_Write_Bytes(I2C_Data,2);
   if(res == HAL_OK)
     WM8960_REG_VAL[reg] = dat;
   
@@ -55,7 +213,7 @@ uint16_t WM8960_Read_Reg(uint8_t reg) {
   * @retval res :Status
   */
 uint8_t WM89060_Init(uint8_t mode)  {
-
+  IIC_Init();
   uint8_t res;
   
   //Reset Device

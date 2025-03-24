@@ -7,7 +7,7 @@
 #include "stm32f1xx_hal.h"
 #include "fatfs.h"
 
-#define WAV_BUFFER_SIZE 10240
+#define WAV_BUFFER_SIZE 15000
 #define PLAY_SIZE 15000
 
 //RIFF Chunk

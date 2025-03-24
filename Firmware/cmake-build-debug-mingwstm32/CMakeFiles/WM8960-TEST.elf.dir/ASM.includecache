@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Startup/startup_stm32f103vetx.s
+E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Startup/startup_stm32f103vetx.s
 

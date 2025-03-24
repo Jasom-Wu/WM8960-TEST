@@ -166,11 +166,12 @@ void StartMainTask(void const * argument)
   static portTickType PreviousWakeTime;
   const portTickType TimeIncrement = pdMS_TO_TICKS(50);
   PreviousWakeTime = xTaskGetTickCount();
-  ScanWavefiles("0:/WAV");
+  ScanWavefiles("0:/REC");
   /* Infinite loop */
   for(;;)
   {
-    PlayWaveFile(Play_List[Music_Num]);
+//    PlayWaveFile(Play_List[Music_Num]);
+    PlayWaveFile("0:Audios\\Everything and More.wav");
     RecordWaveFile("test_rec",16000);
     vTaskDelayUntil(&PreviousWakeTime, TimeIncrement);
   }
@@ -185,7 +186,7 @@ void KeyProcessHandler(Key_Typedef keys){
       audio_rec_request = AUDIO_END;
       return;
     }
-    if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE || audio_play_state == AUDIO_END || audio_play_state == AUDIO_NONE){
+    if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE || audio_play_state == AUDIO_END || audio_play_state == AUDIO_CANCEL || audio_play_state == AUDIO_NONE){
       printf("Previous!\r\n");
       if(Music_Num==0)
         Music_Num = Music_Num_MAX-1;
@@ -198,12 +199,18 @@ void KeyProcessHandler(Key_Typedef keys){
       audio_play_request = AUDIO_PLAY;
     }
   }else if (keys.k1 == LONG_PRESSED){
-    if(audio_rec_state == AUDIO_RECORD)
-      audio_rec_request = AUDIO_PAUSE;
-    else if(audio_rec_state == AUDIO_NONE || audio_rec_state == AUDIO_END || audio_rec_state == AUDIO_CANCEL)
-      audio_rec_request = AUDIO_RECORD;
-    else if(audio_rec_state == AUDIO_PAUSE)
-      audio_rec_request = AUDIO_RESUME;
+    if(audio_play_state == AUDIO_PLAY || audio_play_state == AUDIO_PAUSE){
+      audio_play_request = AUDIO_CANCEL;
+      while (audio_play_state != AUDIO_CANCEL);
+    }
+    else{
+      if(audio_rec_state == AUDIO_NONE || audio_rec_state == AUDIO_END || audio_rec_state == AUDIO_CANCEL)
+        audio_rec_request = AUDIO_RECORD;
+      else if(audio_rec_state == AUDIO_RECORD)
+        audio_rec_request = AUDIO_PAUSE;
+      else if(audio_rec_state == AUDIO_PAUSE)
+        audio_rec_request = AUDIO_RESUME;
+    }
   }
   if(keys.k2 == CLICKED){
     if(audio_rec_state == AUDIO_RECORD || audio_rec_state == AUDIO_PAUSE || audio_rec_state == AUDIO_END){

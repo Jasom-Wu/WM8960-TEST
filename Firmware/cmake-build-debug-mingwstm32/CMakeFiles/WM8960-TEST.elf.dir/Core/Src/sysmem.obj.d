@@ -1,5 +1,5 @@
 CMakeFiles/WM8960-TEST.elf.dir/Core/Src/sysmem.obj: \
- E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\sysmem.c \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\Core\Src\sysmem.c \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\errno.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\sys\errno.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\sys\reent.h \

@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"
+			"value" : "e:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/CMakeFiles/pkgRedirects"
+			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -775,7 +775,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST"
+			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1431,7 +1431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"
+			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32"
 		},
 		{
 			"name" : "WM8960-TEST_IS_TOP_LEVEL",
@@ -1455,7 +1455,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST"
+			"value" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware"
 		}
 	],
 	"kind" : "cache",

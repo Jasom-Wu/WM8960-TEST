@@ -8,17 +8,17 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"/>
+				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="WM8960-TEST.elf">
-				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
+				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -27,23 +27,23 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/Target"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/App"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/Target"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
@@ -52,14 +52,14 @@
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 WM8960-TEST.elf"/>
-					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 WM8960-TEST.elf"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="WM8960-TEST.elf/fast">
-				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
+				<Option output="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/WM8960-TEST.elf" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -68,23 +68,23 @@
 					<Add option="-DDEBUG"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xE"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
-					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/Target"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/App"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/Target"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS"/>
+					<Add directory="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"/>
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"/>
@@ -93,583 +93,568 @@
 					<Add directory="e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 WM8960-TEST.elf/fast"/>
-					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 WM8960-TEST.elf/fast"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"/>
+				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32"/>
+				<Option working_dir="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw64/bin/mingw32-make.exe -f &quot;E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/WM8960.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/WM8960.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Apps.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/WM8960Apps.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/WM8960Apps.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/WM8960Apps.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/bsp_key.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/bsp_key.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/bsp_key.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Code/simple_gpio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Code/simple_gpio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/FreeRTOSConfig.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/FreeRTOSConfig.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/dma.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/dma.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/gpio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/gpio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/i2c.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/i2s.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/i2s.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/main.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/main.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/sdio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/sdio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/stm32f1xx_hal_conf.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/stm32f1xx_hal_conf.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/stm32f1xx_it.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/stm32f1xx_it.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Inc/usart.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Inc/usart.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/dma.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/dma.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/freertos.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/freertos.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/gpio.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/gpio.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/i2s.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2c.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/main.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/i2s.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/sdio.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/main.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/stm32f1xx_hal_msp.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sdio.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/stm32f1xx_hal_timebase_tim.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_msp.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/stm32f1xx_it.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_hal_timebase_tim.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/syscalls.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/stm32f1xx_it.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/sysmem.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/syscalls.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/system_stm32f1xx.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/sysmem.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Src/usart.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/system_stm32f1xx.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Core/Startup/startup_stm32f103vetx.s">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Src/usart.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Core/Startup/startup_stm32f103vetx.s">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/CMSIS/LICENSE.txt">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2s.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/App/fatfs.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/App/fatfs.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/Target/bsp_driver_sd.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/Target/bsp_driver_sd.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/FATFS/Target/ffconf.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App/fatfs.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/App/fatfs.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_bot.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target/bsp_driver_sd.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_data.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target/bsp_driver_sd.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_scsi.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/FATFS/Target/ffconf.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_bot.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_data.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc/usbd_msc_scsi.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_bot.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_data.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc_scsi.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/diskio.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/diskio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/ff.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/diskio.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/ff.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/diskio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/integer.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/option/cc936.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/integer.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/cc936.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/list.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/STM32F103VETX_FLASH.ld">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usb_device.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usb_device.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usbd_desc.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usbd_desc.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/STM32F103VETX_FLASH.ld">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usbd_storage_if.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usb_device.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/App/usbd_storage_if.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usb_device.h">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/Target/usbd_conf.c">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_desc.c">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/USB_DEVICE/Target/usbd_conf.h">
 			<Option target="WM8960-TEST.elf"/>
 		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_desc.h">
-			<Option target="WM8960-TEST.elf"/>
-		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_storage_if.c">
-			<Option target="WM8960-TEST.elf"/>
-		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/App/usbd_storage_if.h">
-			<Option target="WM8960-TEST.elf"/>
-		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target/usbd_conf.c">
-			<Option target="WM8960-TEST.elf"/>
-		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/USB_DEVICE/Target/usbd_conf.h">
-			<Option target="WM8960-TEST.elf"/>
-		</Unit>
-		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/CMakeLists.txt">
+		<Unit filename="E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

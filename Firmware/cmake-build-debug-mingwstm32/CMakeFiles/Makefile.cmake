@@ -25,7 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Compiler/GNU.cmake"
   "E:/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/Platform/Generic.cmake"
   "E:/CLion 2022.3.2/bin/cmake/win/x64/share/cmake-3.24/Modules/ProcessorCount.cmake"
-  "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/CMakeLists.txt"
+  "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"

@@ -56,10 +56,10 @@ RM = "E:\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST
+CMAKE_SOURCE_DIR = E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32
+CMAKE_BINARY_DIR = E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\cmake-build-debug-mingwstm32
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\cmake-build-debug-mingwstm32\CMakeFiles E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\cmake-build-debug-mingwstm32\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\cmake-build-debug-mingwstm32\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\cmake-build-debug-mingwstm32\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -217,21 +217,6 @@ Core/Src/gpio.i:
 Core/Src/gpio.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/gpio.s
 .PHONY : Core/Src/gpio.s
-
-# target to build an object file
-Core/Src/i2c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.obj
-.PHONY : Core/Src/i2c.obj
-
-# target to preprocess a source file
-Core/Src/i2c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.i
-.PHONY : Core/Src/i2c.i
-
-# target to generate assembly for a file
-Core/Src/i2c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Core/Src/i2c.s
-.PHONY : Core/Src/i2c.s
 
 # target to build an object file
 Core/Src/i2s.obj:
@@ -507,21 +492,6 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i:
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
-
-# target to build an object file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-
-# target to preprocess a source file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-
-# target to generate assembly for a file
-Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\WM8960-TEST.elf.dir\build.make CMakeFiles/WM8960-TEST.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
-.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
 
 # target to build an object file
 Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj:
@@ -1150,9 +1120,6 @@ help:
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
-	@echo ... Core/Src/i2c.obj
-	@echo ... Core/Src/i2c.i
-	@echo ... Core/Src/i2c.s
 	@echo ... Core/Src/i2s.obj
 	@echo ... Core/Src/i2s.i
 	@echo ... Core/Src/i2s.s
@@ -1208,9 +1175,6 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.s
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.obj
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.i
-	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.s
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2s.s

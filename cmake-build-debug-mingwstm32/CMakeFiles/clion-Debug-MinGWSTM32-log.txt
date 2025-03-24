@@ -1,0 +1,1 @@
+在 E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST 中找不到 CMakeLists.txt 选择 CMakeLists.txt

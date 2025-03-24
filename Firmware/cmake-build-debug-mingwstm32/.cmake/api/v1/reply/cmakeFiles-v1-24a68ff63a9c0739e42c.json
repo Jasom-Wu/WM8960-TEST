@@ -144,8 +144,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32",
-		"source" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST"
+		"build" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32",
+		"source" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware"
 	},
 	"version" : 
 	{

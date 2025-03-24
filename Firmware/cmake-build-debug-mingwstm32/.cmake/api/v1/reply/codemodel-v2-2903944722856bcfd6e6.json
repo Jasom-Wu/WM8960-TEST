@@ -35,7 +35,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WM8960-TEST.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WM8960-TEST.elf-Debug-3e6f5cd45e1a2c20489c.json",
+					"jsonFile" : "target-WM8960-TEST.elf-Debug-becec9a3c978a91174f0.json",
 					"name" : "WM8960-TEST.elf",
 					"projectIndex" : 0
 				}
@@ -45,8 +45,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/cmake-build-debug-mingwstm32",
-		"source" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST"
+		"build" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware/cmake-build-debug-mingwstm32",
+		"source" : "E:/WorkSpace/MyCodes/TI/STM32/HAL/F103VET6/WM8960-TEST/Firmware"
 	},
 	"version" : 
 	{

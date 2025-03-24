@@ -1,5 +1,5 @@
 CMakeFiles/WM8960-TEST.elf.dir/Core/Src/syscalls.obj: \
- E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Core\Src\syscalls.c \
+ E:\WorkSpace\MyCodes\TI\STM32\HAL\F103VET6\WM8960-TEST\Firmware\Core\Src\syscalls.c \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\sys\stat.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\_ansi.h \
  e:\_tool\arm-gnu-toolchain-12.2.mpacbti-rel1-mingw-w64-i686-arm-none-eabi\arm-none-eabi\include\newlib.h \
